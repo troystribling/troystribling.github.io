@@ -1,0 +1,7 @@
+*.sw?
+*.log
+doc/*
+.DS_Store
+coverage
+rdoc
+pkg
