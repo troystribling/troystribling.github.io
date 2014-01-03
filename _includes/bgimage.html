@@ -6,5 +6,22 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;}
+    * {
+        margin: 0;
+    }
+    html, body {
+      height: 100%;
+    }
+    #main {
+      min-height: 100%;
+      margin-bottom: -150px;
+    }
+    #main:after {
+      content: "";
+      display: block;
+    }
+    .footer-wrapper, #main:after {
+      height: 150px;
+    }
   </style>
 {% endif %}

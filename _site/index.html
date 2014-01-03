@@ -65,7 +65,8 @@
 
 <body id="page" itemscope itemtype="http://schema.org/WebPage">
 
-<div class="navigation-wrapper">
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop" itemscope itemtype="http://schema.org/SiteNavigationElement">
 	    <ul>
 	        
@@ -97,6 +98,51 @@
 	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->
 
+  
+  <style type:"text/css">
+    html {
+      background: url(/images/home-background.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;}
+    * {
+        margin: 0;
+    }
+    html, body {
+      height: 100%;
+    }
+    #main {
+      min-height: 100%;
+      margin-bottom: -150px;
+    }
+    #main:after {
+      content: "";
+      display: block;
+    }
+    .footer-wrapper, #main:after {
+      height: 150px;
+    }
+  </style>
+
+</div>
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 Troy Stribling. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/troystribling" title="Troy Stribling on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	<a href="http://linkedin.com/in/troystribling" title="Troy Stribling on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
+	
+	
+	
+	<a href="http://github.com/troystribling" title="Troy Stribling on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	<a href="http://troystribling.tumblr.com" title="Troy Stribling on Tumblr" target="_blank"><i class="icon-tumblr icon-2x"></i></a>
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -139,34 +185,6 @@
 
 
 
-
-
-  <style type:"text/css">
-    html {
-      background: url(/images/home-background.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;}
-  </style>
-
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    <span>&copy; 2014 Troy Stribling. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
-<div class="social-icons">
-	<a href="http://twitter.com/troystribling" title="Troy Stribling on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
-	
-	
-	<a href="http://linkedin.com/in/troystribling" title="Troy Stribling on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
-	
-	
-	
-	<a href="http://github.com/troystribling" title="Troy Stribling on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
-	<a href="http://troystribling.tumblr.com" title="Troy Stribling on Tumblr" target="_blank"><i class="icon-tumblr icon-2x"></i></a>
-</div><!-- /.social-icons -->
-  </footer>
-</div><!-- /.footer-wrapper -->
 
 </body>
 </html>
