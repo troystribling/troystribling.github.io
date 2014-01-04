@@ -9,19 +9,19 @@
     * {
         margin: 0;
     }
-    html, body {
-      height: 100%;
-    }
-    #main {
+    html {
+      position: relative;
       min-height: 100%;
-      margin-bottom: -150px;
     }
-    #main:after {
-      content: "";
-      display: block;
+    body {
+      margin: 0 0 45px;
     }
-    .footer-wrapper, #main:after {
-      height: 150px;
+    .footer-wrapper {
+      position:  absolute;
+      left: 0;
+      bottom: 0;
+      height: 45px;
+      width: 100%;
     }
   </style>
 {% endif %}
