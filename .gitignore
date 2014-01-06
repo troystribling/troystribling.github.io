@@ -6,3 +6,4 @@ coverage
 rdoc
 pkg
 *.sublime-workspace
+node_modules/*
