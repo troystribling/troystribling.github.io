@@ -1,7 +1,7 @@
 ---
 layout: page
-title: groc.us
-permalink: /groc.us/index.html
+title: gnos.us
+permalink: /gnos.us/index.html
 description: "The thought and activity of Troy Stribling"
 tags: []
 ---

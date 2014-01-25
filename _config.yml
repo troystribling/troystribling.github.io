@@ -32,8 +32,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: groc.us
-    url: /groc.us
+  - title: gnos.us
+    url: /gnos.us
   - title: projects
     url: /projects
 
