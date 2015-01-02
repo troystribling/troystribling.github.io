@@ -1,13 +1,39 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects/
 ---
 
-<div class="py2">
-  <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked form-light">
-    <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
-    <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="What would you like to say?"></textarea>
-    <input type="submit" class="button button-blue button-big mobile-block" value="Say Hello">
-  </form>
-</div>
+<ul>
+  <li class="project" style="height: 210px;" >
+    <div class="icon" style="margin-top: 30px; margin-left: 20px;" >
+      <a href="/projects/agent-xmpp"><img src="/agent-xmpp/agent-xmpp-icon-agent.png" /></a>
+    </div>
+    <div class="content">
+      <h1>Agent XMPP</h1>
+      <p>
+        Agent XMPP is the first Ruby application framework for writing automated XMPP clients that support Messaging, Ad-Hoc Commands and Publish Subscribe Events.
+        Out of the box you get authentication, authorization, contacts and management statistics. Applications can be written with just a few lines of code.
+      </p>
+      <div class="more">
+        <a href="/projects/agent-xmpp">read more &raquo;</a>
+      </div>
+    </div>
+  </li>
+  <li class="project" style="height: 230px;">
+    <div class="icon" style="margin-top: 75px; margin-left: 24px;" >
+      <a href="/projects/zgomot"><img src="/zgomot/zgomot-icon.png" /></a>
+    </div>
+    <div class="content">
+      <h1>zgomot</h1>
+      <p>
+        zgomot is a Ruby DSL for composing music as programs. Programs generate MIDI streams that are rendered by audio software such as GarageBand and Ableton Live.
+        It provides abstractions that easily allow programming of algorithmic music. This includes using Roman Numeral Notation to represent a melody and applying
+        sequences of transformations to produce notes.
+      </p>
+      <div class="more">
+        <a href="/projects/zgomot">read more &raquo;</a>
+      </div>
+    </div>
+  </li>
+</ul>
