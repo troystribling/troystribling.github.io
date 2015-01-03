@@ -1414,3 +1414,26 @@ green     #859900  operators, other keywords
   color: #2aa198; }
 
 /* Literal.Number.Integer.Long */
+ul.projects {
+  margin-bottom: 7em; }
+
+li.project {
+  list-style: none;
+  clear: right; }
+
+li.project .icon {
+  float: left;
+  width: 20%;
+  height: auto; }
+
+li.project .content {
+  float: right;
+  width: 70%;
+  clear: right; }
+
+li.project .content h1 {
+  font-weight: normal;
+  margin: 0; }
+
+li.project .content p {
+  margin: 0; }
