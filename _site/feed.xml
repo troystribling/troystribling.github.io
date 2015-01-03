@@ -7,7 +7,7 @@
     <atom:link href="http://troystribling.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>SimpleFutues</title>
+        <title>SimpleFutures</title>
         <description>&lt;p&gt;This is an empty post to illustrate the pagination component with Pixyll.&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Jan 2015 00:00:00 -0800</pubDate>
