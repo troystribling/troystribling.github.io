@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      SimpleFutues
+title:      SimpleFutures
 date:       2015-01-02
 summary:    SimpleFutures is a Swift implementation of futures following the the Scala Futures Spec.
 categories: swift
