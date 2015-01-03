@@ -22,6 +22,13 @@
     {% if site.tumblr_username %}
       <a class="fa  fa-tumblr" href="http://{{ site.tumblr_username }}.tumblr.com"></a>
     {% endif %}
+    {% if site.youtube_username %}
+      <a class="fa  fa-youtube-play" href="https://www.youtube.com/channel/{{ site.youtube_username }}/videos"></a>
+    {% endif %}
+    {% if site.research_gate_username %}
+      <a class="fa" href="http://www.researchgate.net/profile/{{ site.research_gate_username }}">
+      <img src="/images/researchgate.svg" style="width:1.1rem;height:1.1rem;opacity:0.85;"></a>
+    {% endif %}
   </div>
   <div class="right">
     {% if site.bitcoin_url %}
