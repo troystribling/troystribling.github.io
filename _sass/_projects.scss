@@ -10,18 +10,20 @@ ul.projects  {
     font-weight: normal;
     margin: 0;
   }
-  .center {
+  .hcenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   li.project .icon a {
-    width: 9.4em;
+    width: 7.5em;
   }
   li.project .app-store a {
-    width: 6.8em;
+    width: 6.75em;
+    margin-top: 1em;
+    margin-bottom: 0;
   }
   li.project .content p {
-    margin: 0, 2em, 0, 0;
+    margin: 0;
   }
 }

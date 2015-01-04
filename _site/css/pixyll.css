@@ -1423,13 +1423,15 @@ ul.projects {
   ul.projects li.project h1 {
     font-weight: normal;
     margin: 0; }
-  ul.projects .center {
+  ul.projects .hcenter {
     display: block;
     margin-left: auto;
     margin-right: auto; }
   ul.projects li.project .icon a {
-    width: 9.4em; }
+    width: 7.5em; }
   ul.projects li.project .app-store a {
-    width: 6.8em; }
+    width: 6.75em;
+    margin-top: 1em;
+    margin-bottom: 0; }
   ul.projects li.project .content p {
-    margin: 0, 2em, 0, 0; }
+    margin: 0; }
