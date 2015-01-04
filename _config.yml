@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://troystribling.com"
 
 # Google analytics
-google_analytics:
+google_analytics:   true
 
 # Optional features
 animated:           false
@@ -19,14 +19,14 @@ show_post_footers:  false
 disqus_shortname:
 
 # Social icons
-show_social_icons: true
-github_username: troystribling
+show_social_icons:      true
+github_username:        troystribling
 stackoverflow_id:
-twitter_username: troystribling
-google_plus_id: +TroyStribling
-youtube_username: UCmxDz-DQmdxmPow3TYashLw
-linkedin_username: troystribling
-tumblr_username: troystribling
+twitter_username:       troystribling
+google_plus_id:         +TroyStribling
+youtube_username:       UCmxDz-DQmdxmPow3TYashLw
+linkedin_username:      troystribling
+tumblr_username:        troystribling
 research_gate_username: Troy_Stribling
 bitcoin_url:
 paypal_url:
