@@ -6,8 +6,13 @@ ul.projects  {
   li.project .icon {
   }
   li.project .icon a {
-    width: 30%;
-    height: auto;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  li.project .app-store {
+    width: 18%;
     display: block;
     margin-left: auto;
     margin-right: auto;
