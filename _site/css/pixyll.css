@@ -1418,18 +1418,18 @@ ul.projects {
   margin-bottom: 7em; }
   ul.projects li.project {
     list-style: none; }
-  ul.projects li.project .icon a {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  ul.projects li.project .app-store {
-    width: 18%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  ul.projects li.project .content h1 {
+  ul.projects li.project {
+    margin-bottom: 2em; }
+  ul.projects li.project h1 {
     font-weight: normal;
     margin: 0; }
+  ul.projects .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  ul.projects li.project .icon a {
+    width: 9.4em; }
+  ul.projects li.project .app-store a {
+    width: 6.8em; }
   ul.projects li.project .content p {
-    margin: 0; }
+    margin: 0, 2em, 0, 0; }

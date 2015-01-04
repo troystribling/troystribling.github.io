@@ -3,27 +3,25 @@ ul.projects  {
   li.project {
     list-style:none;
   }
-  li.project .icon {
+  li.project {
+    margin-bottom: 2em;
   }
-  li.project .icon a {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  li.project .app-store {
-    width: 18%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  li.project .content {
-  }
-  li.project .content h1 {
+  li.project h1 {
     font-weight: normal;
     margin: 0;
   }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  li.project .icon a {
+    width: 9.4em;
+  }
+  li.project .app-store a {
+    width: 6.8em;
+  }
   li.project .content p {
-    margin: 0;
+    margin: 0, 2em, 0, 0;
   }
 }
