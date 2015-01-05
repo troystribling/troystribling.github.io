@@ -11,7 +11,7 @@ google_analytics:   true
 
 # Optional features
 animated:           false
-show_related_posts: true
+show_related_posts: false
 show_post_footers:  false
 
 # Disqus post comments
@@ -33,9 +33,9 @@ paypal_url:
 flattr_button:
 
 # Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
+markdown:     kramdown
+kramdown:
+  input:      GFM
 permalink:    pretty
 paginate:     3
 sass:

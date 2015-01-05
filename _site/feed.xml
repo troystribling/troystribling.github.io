@@ -15,5 +15,14 @@
         <guid isPermaLink="true">http://troystribling.com/swift/2015/01/02/simple-futures/</guid>
       </item>
     
+      <item>
+        <title>MathJax Example</title>
+        <description>&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
+</description>
+        <pubDate>Fri, 02 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://troystribling.com/math/2015/01/02/mathjax/</link>
+        <guid isPermaLink="true">http://troystribling.com/math/2015/01/02/mathjax/</guid>
+      </item>
+    
   </channel>
 </rss>
