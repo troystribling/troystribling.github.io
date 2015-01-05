@@ -7,4 +7,5 @@ rdoc
 pkg
 *.sublime-workspace
 *.sublime-project
+_drafts
 node_modules/*
